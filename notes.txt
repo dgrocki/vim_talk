@@ -65,7 +65,7 @@ close current window
 move window to tab
 ctrl-w T
 
-copy windo to tab
+copy window to tab
 :tab sp or :tab split
 
 gt next gT prev or ctrl page-up/down
@@ -92,7 +92,7 @@ type @letter or #@letter
 
 
 .vimrc
-let @c = "i//j0"
+let @c = "0i//j0"
 (insert mode the ctrl-v <esc>)
 
 
