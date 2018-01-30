@@ -17,7 +17,8 @@ hjkl
 o and O
 a and A
 
-
+% find matching []{}()
+d$ delete rest of line
 yy yank
 dd delete
 p paste
@@ -80,6 +81,9 @@ Run unix commands from vim
 
 
 :!command
+
+:!bash
+:r!echo 'echo "Making this script even more robust"'
 
 
 -------------------------------------
