@@ -1,0 +1,103 @@
+Daniel Grocki
+Vim Tips and Tricks
+
+
+Modes
+insert mode		i
+command mode		esc
+visual mode		v
+  visual block		ctrl  v
+  visual line 		shift v
+Replace			shift r
+
+-------------------------------------
+
+Movement
+hjkl
+o and O
+a and A
+
+
+yy yank
+dd delete
+p paste
+u undo
+
+
+Indent
+gg=G
+or highlight
+
+-------------------------------------
+
+Searching and Replacing
+:set hlsearch
+:nohl
+
+/serachitem	looks down
+?serachitem	looks up
+n next N prev
+
+
+:%s/foo/bar/g		
+
+% is all lines
+#,# for a range
+
+g means all occurances in a line
+
+
+-------------------------------------
+
+Splits and Tabs
+:sp or :split 
+:vsp or :vsplit
+Ctrl ww to move between screens
+
+
+vim <f1> <f2> -p opens up in tabs
+or
+:tabedit <f2>
+
+close current window
+:tabclose or ctrl-w c
+
+move window to tab
+ctrl-w T
+
+copy windo to tab
+:tab sp or :tab split
+
+gt next gT prev or ctrl page-up/down
+
+:wqa exit all
+
+
+-------------------------------------
+
+
+Run unix commands from vim
+
+
+:!command
+
+
+-------------------------------------
+
+Recording and Macros
+
+q and then any letter to start recording
+enter commands then q to end
+type @letter or #@letter
+
+
+.vimrc
+let @c = "i//j0"
+(insert mode the ctrl-v <esc>)
+
+
+
+
+
+
+
