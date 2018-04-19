@@ -35,6 +35,9 @@ Searching and Replacing
 :set hlsearch
 :nohl
 
+
+* or # on current word to search it
+
 /serachitem	looks down
 ?serachitem	looks up
 n next N prev
